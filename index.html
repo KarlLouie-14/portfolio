@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+    Karl Louie Agno
+    T00706738
+    Final Project: Clonie Co. Landing Page 
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link href="base-styles.css" rel="stylesheet" />
+    <link href="homestyles.css" rel="stylesheet" />
+    <script src="date.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="Images/clonie-co-logo.png" alt="clonie digital logo"></a>
+    <nav id="top-nav">
+      <a href="#" id="navicon"><img src="Images/navicon.png" alt="" /></a>
+      <ul class="main-menu">
+        <li><a href="index.html">Clonie Home</a></li>
+        <li><a href="engineering.html">Engineering</a></li>
+        <li><a href="digital.html">Digital Marketing</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home-intro">
+      <h1>Welcome to Clonie Co.</h1>
+      <p>Clonie Co. is a full-service digital marketing and engineering agency that helps businesses grow and succeed online. 
+        Our mission is to provide innovative solutions that drive results and help businesses reach their full potential. 
+        Our vision is to be the trusted partner for businesses seeking to enhance their 
+        digital presence and achieve their goals. We offer a range of services, including SEO, PPC, social media marketing, 
+        website design and development, and more. Let us help you succeed in the digital world.</p>
+    </section>
+      
+    <section id="home-multimedia">
+      <h1>Introduction Video</h1>
+      <video controls>
+        <source src="Multimedia/Grass-royaltyfree.mp4" type="video/mp4" />
+      </video>
+      <audio controls>
+        <source src="Multimedia/nature-royaltyfree.mp3" type="audio/mp3" />
+      </audio>
+    </section>
+      
+    <h1>Services</h1>
+    <section id="home-services">
+      <div class="home-services" id="engineering">
+        <a href="engineering.html"><img src="Images/eng-clonie.png" alt="clonie engineering" /></a>
+        <img src="Images/eng-cameron.jpg" alt="cameron smith" />
+        <h2>Cameron Smith</h2>
+        <p>With seven years of experience in hardware and software engineering, 
+          Cameron founded Clonie Engineering to offer high-quality engineering solutions.
+        </p>
+        <h3>Engineering Services</h3>
+        <table>
+          <tr>
+            <td>3D Mechanical Design</td>
+            <td>Website Design</td>
+          </tr>
+          <tr>
+            <td>Electronics Design</td>
+            <td>Bill of Materials</td>
+          </tr>
+          <tr>
+            <td>3D Animation</td>
+            <td>Firmware Programming</td>
+          </tr>
+        </table>
+        <button onclick="window.location.href='engineering.html'">Visit Clonie Engineering</button>
+      </div>
+
+      <div class="home-services" id="digital">
+        <a href="engineering.html"><img src="Images/dig-clonie.png" alt="clonie digital" /></a>
+        <img src="Images/dig-chloe.jpg" alt="chloe smith" />
+        <h2>Chloe Smith</h2>
+        <p>Also with seven years of experience in digital marketing, 
+          Chloe became an expert in everything related to digital marketing and virtual work.
+        </p>
+        <h3>Digital Marketing Services</h3>
+        <table>
+          <tr>
+            <td>Virtual Assistant</td>
+            <td>Social Media</td>
+          </tr>
+          <tr>
+            <td>Video Editing</td>
+            <td>E-Commerce</td>
+          </tr>
+          <tr>
+            <td>Graphics Design</td>
+            <td>Digital Marketing</td>
+          </tr>
+        </table>
+        <button onclick="window.location.href='digital.html'">Visit Clonie Digital</button>
+      </div>
+    </section>
+
+    <h1>Location</h1>
+    <div id="home-location">
+      <div id="location-desc" class="location">
+        <p>We are based in the beautiful city of Kamloops in British Columbia, Canada.</p>
+        <p>If you have inquiries, it's best to contact us during our office hours: <strong>Mon-Fri, 9am to 5pm.</strong></p>
+        <p>If not, we will try our best to respond as early as possible to your inquiries. Thanks a lot!</p>
+        <h4>Our Local Time</h4>
+        <h1 id="date-time">Sunday, February 5, 2023 <br />12:00:00 PM</h1>
+
+      </div>
+      <div id="location-image" class="location">
+        <figure>
+          <img src="Images/location.jpg" alt="location" />
+        </figure>
+      </div>
+    </div>
+    
+  </main>
+
+  <footer>
+    <div id="footer-logo" class="footer-contents">
+      <img src="Images/clonie-co-logo.png" alt="clonie co logo">
+    </div>
+    <div id="footer-links" class="footer-contents">
+      <h4>Navigation Links:</h4>
+      <ul>
+        <li><a href="index.html">Clonie Home Page</a></li>
+        <li><a href="engineering.html">Clonie Engineering</a></li>
+        <li><a href="digital.html">Clonie Digital</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </div>
+    <div id="footer-info" class="footer-contents">
+      <h4>Project By:</h4>
+      <ul>
+        <li><strong>Karl Louie Agno</strong></li>
+        <li>T00706738</li>
+        <li>COMP 2681 Final Project</li>
+        <li>February 5, 2023</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

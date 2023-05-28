@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 
+    Karl Louie Agno
+    T00706738
+    Final Project: Clonie Co. Landing Page 
+  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing</title>
+
+    <link href="base-styles.css" rel="stylesheet" />
+    <link href="digstyles.css" rel="stylesheet" />
+    <link href="contact.css" rel="stylesheet" />
+    <link href="services.css" rel="stylesheet" />
+
+    <script src="services.js"></script>
+</head>
+<body>
+    <header>
+      <a href="digital.html"><img src="Images/dig-clonie.png" alt="clonie digital logo"></a>
+      <nav id="top-nav">
+        <a href="#" id="navicon"><img src="Images/navicon.png" alt="" /></a>
+        <div id="menu-div">
+          <ul class="main-menu">
+            <li><a href="index.html">Clonie Home</a></li>
+            <li><a href="engineering.html">Engineering</a></li>
+            <li><a href="digital.html">Digital Marketing &#9654;</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+          <ul class="sub-menu">
+            <li><a href="#dig-about">About</a></li>
+            <li><a href="#dig-services">Services</a></li>
+            <li><a href="#dig-reviews">Reviews</a></li>
+            <li><a href="#dig-pricing">Pricing</a></li>
+            <li><a href="#dig-contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="dig-about">
+        <h1>About</h1>
+        <div id="about-container">
+          <div id="about-education" class="about-contents">
+            <h2>Education</h2>
+            <ul>
+              <li><h3>Master's Degree in Business Philosophy</h3></li>
+                <p><strong>ABC State University</strong>, 2019 </p>
+                <p><em>Dean's Lister</em>, GPA: 4.14</p>
+              <li><h3>Bachelor's Degree in Business Administration</h3></li>
+                <p><strong>ABC State University</strong>, 2017 </p>
+                <p><em>Dean's Lister</em>, GPA: 4.10</p>
+              <li><h3>Diploma in E-Commerce</h3></li>
+                <p><strong>DEF College</strong>, 2013 </p>
+                <p><em>Dean's Lister</em>, GPA: 4.12</p>
+            </ul>
+          </div>
+          <div id="about-experience" class="about-contents">
+            <h2>Professional Experience</h2>
+            <ul>
+              <li><h3>Chief Executive Officer</h3></li>
+                <p><strong>Clonie Co.</strong>, 2020 - Present</p>
+                <ul>
+                  <li>Founded Clonie Co's Digital Marketing services</li>
+                  <li>Provided more than 2000 digital marketing solutions to various clients</li>
+                </ul>
+              <li><h3>Social Media Manager</h3></li>
+                <p><strong>ASD Company</strong>, 2017 - 2020</p>
+                <ul>
+                  <li>Managed up to 3000 social media accounts.</li>
+                  <li>Boosted up sales and marketing by up to 80%.</li>
+                </ul>
+              <li><h3>E-Commerce Expert</h3></li>
+                <p><strong>ABC Online Inc.</strong>, 2016 - 2017</p>
+                <ul>
+                  <li>Edited up to 5000 videos and graphics for e-commerce website.</li>
+                  <li>Used Google and Facebook Ads for marketing.</li>
+                </ul>
+            </ul>
+          </div> 
+          <div id="about-photo" class="about-contents">
+            <img src="Images/dig-chloe.jpg">
+            <div id="dig-intro">
+              <p>Hi, I'm <strong>Chloe Smith</strong>, an E-Commerce and Digital Marketing Expert. 
+                Feel free to browse through all my services and contact me for pricing. Thanks!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dig-services">
+        <h1>Services</h1>
+        <div id="services-container">
+          <div class="services">
+            <h2>Virtual Assistant</h2>
+            <img src="Images/dig-virtual.jpg" alt="digital VA">
+            <button class="buttonPrice">See Pricing</button>
+          </div>
+          <div class="services">
+            <h2>Video Editing</h2>
+            <img src="Images/dig-video.jpg" alt="digital video editing">
+            <button class="buttonPrice">See Pricing</button>
+          </div>
+          <div class="services">
+            <h2>Social Media</h2>
+            <img src="Images/dig-smm.jpg" alt="digital smm">
+            <button class="buttonPrice">See Pricing</button>
+          </div>
+          <div class="services">
+            <h2>E-Commerce</h2>
+            <img src="Images/dig-commerce.jpg" alt="digital e-commerce">
+            <button class="buttonPrice">See Pricing</button>
+          </div>
+          <div class="services">
+            <h2>Graphics Design</h2>
+            <img src="Images/dig-graphics.jpg" alt="digital graphics">
+            <button class="buttonPrice">See Pricing</button>
+          </div>
+          <div class="services">
+            <h2>Digital Marketing</h2>
+            <img src="Images/dig-marketing.jpg" alt="digital marketing">
+            <button class="buttonPrice">See Pricing</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="dig-pricing">
+        <h1>Pricing</h1>
+        <div id="pricing-container">
+          <table>
+            <tr>
+              <th>Service</th>
+              <th>One-Time Service Fee</th>
+              <th>Hourly Rate</th>
+              <th>Total Costs</th>
+            </tr>
+            <tr>
+              <td>Virtual Assistant</td>
+              <td>$200</td>
+              <td>$45</td>
+              <td id="result1">$1100</td>
+            </tr>
+            <tr>
+              <td>Video Editing</td>
+              <td>$200</td>
+              <td>$50</td>
+              <td id="result2">$1200</td>
+            </tr>
+            <tr>
+              <td>Social Media Management</td>
+              <td>$200</td>
+              <td>$50</td>
+              <td id="result3">$1200</td>
+            </tr>
+            <tr>
+              <td>E-Commerce</td>
+              <td>$100</td>
+              <td>$45</td>
+              <td id="result4">$1000</td>
+            </tr>
+            <tr>
+              <td>Graphics Design</td>
+              <td>$100</td>
+              <td>$30</td>
+              <td id="result5">$700</td>
+            </tr>
+            <tr>
+              <td>Digital Marketing</td>
+              <td>$100</td>
+              <td>$35</td>
+              <td id="result6">$800</td>
+            </tr>
+          </table>
+          <p>Number of Hours: <span id="value1">20</span></p>
+          <input type="range" min="1" max="80" value="20" class="slider" id="slider1">
+          <p>Number of Files: <span id="value2">1</span></p>
+          <input type="range" min="1" max="20" value="1" class="slider" id="slider2">
+        </div>
+      </div>
+
+      <div id="dig-reviews">
+        <h1>Reviews</h1>
+        <div id="reviews-container">
+          <div class="reviews">
+            <h2>Amanda J.</h2>
+            <h4>Marketing Manager at Luxe Health and Beauty</h4>
+            <p>"Clonie Digital has been a valuable partner in growing my business. 
+                Their tailored approach to digital marketing has helped me reach 
+                new audiences and achieve my goals."</p>
+          </div>
+          <div class="reviews">
+            <h2>Matthew K.</h2>
+            <h4>Project Manager at K. Industries</h4>
+            <p>"Clonie Digital has helped me take my business to the next level. 
+                Their expert knowledge of digital marketing has led to a significant 
+                increase in website traffic and conversions."</p>
+          </div>
+          <div class="reviews">
+            <h2>Sarah T.</h2>
+            <h4>Analytics Expert at The Green Room</h4>
+            <p>"I highly recommend Clonie Digital to anyone looking to improve their digital marketing efforts. 
+                Their team is talented and always strives for excellence."</p>
+          </div>
+          <div class="reviews">
+            <h2>Michael L.</h2>
+            <h4>Content Manager at M. Enterprises</h4>
+            <p>"I've been extremely impressed with the results I've seen since hiring Clonie Digital. 
+                Their team is knowledgeable, professional, and always goes above and beyond."</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="dig-contact">
+        <h1>Contact Us</h1>
+        <div id="contact-container">
+            <p>* - required information</p>
+
+            <form name="cOrder" action="#" method="post">
+              <fieldset id="custInfo">
+                  <legend>Contact Information</legend>
+                  
+                  <div>
+                      <label for="fnameBox">First Name *</label>
+                      <input name="fName" id="fnameBox" type="text" required />
+                  </div>
+      
+                  <div>
+                      <label for="lnameBox">Last Name *</label>
+                      <input name="lName" id="lnameBox" type="text" required />
+                  </div>
+
+                  <div>
+                      <label for="streetBox">Street</label>
+                      <input name="street" id="streetBox" type="text"  />
+                  </div>
+
+                  <div>
+                      <label for="cityBox">City</label>
+                      <input name="city" id="city" type="text" />
+                  </div>
+
+                  <div>
+                      <label for="stateBox">State</label>
+                      <input name="province" id="stateBox" type="text"  />
+                  </div>
+
+                  <div>
+                      <label for="zipBox">ZIP</label>
+                      <input name="poscode" id="zipBox" type="text" placeholder="12345 or A1A 1A1" 
+                              pattern="^\d{5}(?:-\d{4})?|[a-zA-Z]\d[a-zA-Z] ?\d[a-zA-Z]\d" />
+                  </div>
+                  
+                  <div>
+                      <label for="phoneBox">Phone *</label>
+                      <input name="phone" id="phoneBox" type="text" placeholder="(nnn) nnn-nnnn" 
+                              pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required  />
+                  </div>
+
+                  <div>
+                    <label for="emailBox">Email Address *</label>
+                    <input name="email" id="emailBox" type="text" required  />
+                  </div>
+
+                  <div>
+                    <label class="main" for="roleBox">I am a:</label>
+                    <select name="role" id="roleBox">
+                        <option value="option1">Professional</option>
+                        <option value="option2">Business Owner</option>
+                        <option value="option3">Student</option>
+                        <option value="option4">N/A</option>
+                    </select>
+                </div>
+                  
+              </fieldset>
+      
+              <fieldset id="inquiry">
+                  <legend>Services Inquiry</legend>
+                  <div>
+                      <label class="main" for="serviceBox">Service Needed</label>
+                      <select name="service" id="serviceBox">
+                          <option value="option1">Virtual Assistant</option>
+                          <option value="option2">Video Editing</option>
+                          <option value="option3">Social Media</option>
+                          <option value="option4">E-Commerce</option>
+                          <option value="option5">Graphics Design</option>
+                          <option value="option6">Digital Marketing</option>
+                      </select>
+                  </div>
+
+                  <div>
+                      <label class="main" for="durationBox">Project Duration</label>
+                      <select name="duration" id="durationBox">
+                          <option value="option1">2 weeks (or less)</option>
+                          <option value="option2">1 month</option>
+                          <option value="option3">3 months</option>
+                          <option value="option4">6 months (or more)</option>
+                      </select>
+                  </div>
+
+
+
+                  <div>
+                      <label class="main" for="budgetBox">Budget</label>
+                      <select name="budget" id="budgetBox">
+                          <option value="option1">$499 USD (or less)</option>
+                          <option value="option2">$500 to $999 USD</option>
+                          <option value="option3">$1000 to $2499 USD</option>
+                          <option value="option4">$2500 USD (or above)</option>
+                      </select>
+                  </div>
+
+                  <div>
+                      <label class="main">Do you want a full catalog?</label>
+                      <input name="catalog" id="catalogBox" value="yes" type="radio" />
+                      <label for="catalogBox">Yes</label>
+                      <input name="catalog" id="catalogBox" value="no" type="radio" />
+                      <label for="catalogBox">No</label>
+                  </div>
+
+                  <div>
+                      <label class="main">Preferred Contact Method</label>
+                      <input name="cMethod" id="cMethodBox" value="Email" type="radio" />
+                      <label for="cMethodBox">Email</label>
+                      <input name="cMethod" id="cMethodBox" value="Phone" type="radio" />
+                      <label for="cMethodBox">Phone</label>
+                  </div>
+
+                  <div>
+                    <label class="main" for="hearBox">Where did you find us?</label>
+                    <select name="hear" id="hearBox">
+                        <option value="option1">Word of Mouth / Referral</option>
+                        <option value="option2">Social Media Ads</option>
+                        <option value="option3">Google Ads</option>
+                        <option value="option5">LinkedIn</option>
+                    </select>
+                </div>
+                  
+                  
+              </fieldset>
+
+      
+              <div>
+                  <label for="requestBox">Anything else you want to add?</label>
+                  <textarea name="request" id="requestBox" ></textarea>
+              </div>
+      
+              <div>
+                  <input id="send-button" type="submit" value="Send Inquiry" />
+              </div>
+
+          </form>
+        </div>
+      </div>
+
+
+    </main>
+
+    <footer>
+      <div id="footer-logo" class="footer-contents">
+        <img src="Images/clonie-co-logo.png" alt="clonie co logo">
+      </div>
+      <div id="footer-links" class="footer-contents">
+        <h4>Navigation Links:</h4>
+        <ul>
+          <li><a href="index.html">Clonie Home Page</a></li>
+          <li><a href="engineering.html">Clonie Engineering</a></li>
+          <li><a href="digital.html">Clonie Digital</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div id="footer-info" class="footer-contents">
+        <h4>Project By:</h4>
+        <ul>
+          <li><strong>Karl Louie Agno</strong></li>
+          <li>T00706738</li>
+          <li>COMP 2681 Final Project</li>
+          <li>February 5, 2023</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

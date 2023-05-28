@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+    Karl Louie Agno
+    T00706738
+    Final Project: Clonie Co. Landing Page 
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+
+    <link href="base-styles.css" rel="stylesheet" />
+    <link href="resources.css" rel="stylesheet" />
+
+    <script src="form.js"></script>
+</head>
+<body>
+
+  <header>
+    <a href="index.html"><img src="Images/clonie-co-logo.png" alt="clonie digital logo"></a>
+    <nav id="top-nav">
+      <a href="#" id="navicon"><img src="Images/navicon.png" alt="" /></a>
+      <ul class="main-menu">
+        <li><a href="index.html">Clonie Home</a></li>
+        <li><a href="engineering.html">Engineering</a></li>
+        <li><a href="digital.html">Digital Marketing</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="resources-container">
+      <h1>Reference Websites</h1>
+      <div class="resources">
+        <h2>Similar Websites</h2>
+        <ul>
+          <li><a href="https://www.swissvault.global/">Swiss Vault</a>
+            <p>This simple website is an awesome example of a landing page.</p>
+          </li>
+          <li><a href="https://www.tru.ca/">Thompson Rivers University</a>
+            <p>Complex and has many web pages. Awesome graphics and CSS layout.</p>
+          </li>
+          <li><a href="https://www.semrush.com/">SemRush</a>
+            <p>Amazing digital marketing website that is meant for attracting customers/clients.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="resources">
+        <h2>Downloadable Sites</h2>
+        <ul>
+          <li><a href="https://www.pexels.com/">Pexels</a>
+            <p>This website contains high-quality free stock photos.</p>
+          </li>
+          <li><a href="https://pixabay.com/">Pixabay</a>
+            <p>Not only does this website has free-stock photos, but also videos and music.</p>
+          </li>
+          <li><a href="https://www.canva.com/">Canva</a>
+            <p>You can edit photos and graphics in this website for free.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="resources">
+        <h2>Technical Information</h2>
+        <ul>
+          <li><a href="https://www.w3schools.com/">W3 Schools</a>
+            <p>Contains high-quality resources for HTML, CSS, and Javascript. 
+              I was already using this during the entire course.</p>
+          </li>
+          <li><a href="https://www.theodinproject.com/">The Odin Project</a>
+            <p>Open-Source web development learning website that is project-focused.</p>
+          </li>
+          <li><a href="https://web.dev/">Web.Dev</a>
+            <p>Like W3 Schools, this contains high quality web development materials.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div id="evaluation-form">
+      <h1>Evaluation Form</h1>
+        <div id="eval-container">
+
+            <form name="cOrder" action="#" method="post">
+              <fieldset id="custInfo">
+                  <legend>Contact Information</legend>
+                  
+                  <div>
+                      <label for="fnameBox">First Name</label>
+                      <input name="fName" id="fnameBox" type="text" />
+                  </div>
+      
+                  <div>
+                      <label for="lnameBox">Last Name</label>
+                      <input name="lName" id="lnameBox" type="text" />
+                  </div>
+                  
+                  <div>
+                      <label for="phoneBox">Phone</label>
+                      <input name="phone" id="phoneBox" type="text" placeholder="(nnn) nnn-nnnn" 
+                              pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"  />
+                  </div>
+
+                  <div>
+                    <label for="emailBox">Email Address</label>
+                    <input name="email" id="emailBox" type="text"  />
+                  </div>
+
+                  <p>Please rate the features of this website.</p>
+                  <ul>
+                    <li>5 = Strongly Agree</li>
+                    <li>4 = Somewhat Agree</li>
+                    <li>3 = Neutral</li>
+                    <li>2 = Somewhat Disagree</li>
+                    <li>1 = Strongly Disagree</li>
+                  </ul>
+                  
+              </fieldset>
+      
+              <fieldset id="eval">
+                  <legend>Evaluation</legend>
+
+                  <div>
+                      <label class="main">The website has all the pages we need:</label>
+                      <div class="eval-rating">
+                        <input name="wPages" id="webPages" value="5" type="radio" />
+                        <label for="webPages">5</label>
+                        <input name="wPages" id="webPages" value="4" type="radio" />
+                        <label for="webPages">4</label>
+                        <input name="wPages" id="webPages" value="3" type="radio" />
+                        <label for="webPages">3</label>
+                        <input name="wPages" id="webPages" value="2" type="radio" />
+                        <label for="webPages">2</label>
+                        <input name="wPages" id="webPages" value="1" type="radio" />
+                        <label for="webPages">1</label>
+                      </div>
+                  </div>
+
+                  <div>
+                    <label class="main">All requirements given were followed:</label>
+                    <div class="eval-rating">
+                      <input name="rPages" id="reqPages" value="5" type="radio" />
+                      <label for="reqPages">5</label>
+                      <input name="rPages" id="reqPages" value="4" type="radio" />
+                      <label for="reqPages">4</label>
+                      <input name="rPages" id="reqPages" value="3" type="radio" />
+                      <label for="reqPages">3</label>
+                      <input name="rPages" id="reqPages" value="2" type="radio" />
+                      <label for="reqPages">2</label>
+                      <input name="rPages" id="reqPages" value="1" type="radio" />
+                      <label for="reqPages">1</label>
+                    </div>
+                </div>
+
+                  <div>
+                    <label class="main">We love the designs and styles:</label>
+                    <div class="eval-rating">
+                      <input name="dPages" id="designPages" value="5" type="radio" />
+                      <label for="designPages">5</label>
+                      <input name="dPages" id="designPages" value="4" type="radio" />
+                      <label for="designPages">4</label>
+                      <input name="dPages" id="designPages" value="3" type="radio" />
+                      <label for="designPages">3</label>
+                      <input name="dPages" id="designPages" value="2" type="radio" />
+                      <label for="designPages">2</label>
+                      <input name="dPages" id="designPages" value="1" type="radio" />
+                      <label for="designPages">1</label>
+                    </div>
+                </div>
+
+                <div>
+                  <label class="main">The Navigation bar and buttons works perfectly:</label>
+                  <div class="eval-rating">
+                    <input name="nPages" id="navPages" value="5" type="radio" />
+                    <label for="navPages">5</label>
+                    <input name="nPages" id="navPages" value="4" type="radio" />
+                    <label for="navPages">4</label>
+                    <input name="nPages" id="navPages" value="3" type="radio" />
+                    <label for="navPages">3</label>
+                    <input name="nPages" id="navPages" value="2" type="radio" />
+                    <label for="navPages">2</label>
+                    <input name="nPages" id="navPages" value="1" type="radio" />
+                    <label for="navPages">1</label>
+                  </div>
+              </div>
+
+              <div>
+                <label class="main">The JS functions (Pricings and Buttons) work perfectly:</label>
+                <div class="eval-rating">
+                  <input name="jFunction" id="JS" value="5" type="radio" />
+                  <label for="JS">5</label>
+                  <input name="jFunction" id="JS" value="4" type="radio" />
+                  <label for="JS">4</label>
+                  <input name="jFunction" id="JS" value="3" type="radio" />
+                  <label for="JS">3</label>
+                  <input name="jFunction" id="JS" value="2" type="radio" />
+                  <label for="JS">2</label>
+                  <input name="jFunction" id="JS" value="1" type="radio" />
+                  <label for="JS">1</label>
+                </div>
+            </div>
+                  
+              </fieldset>
+
+      
+              <div id="request-box">
+                  <label for="requestBox">Anything else you want to add?</label>
+                  <div>
+                    <textarea name="request" id="requestBox" ></textarea>
+                  </div>
+              </div>
+      
+              <div>
+                  <input id="send-button" type="submit" value="Send Feedback" />
+              </div>
+
+          </form>
+        </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div id="footer-logo" class="footer-contents">
+      <img src="Images/clonie-co-logo.png" alt="clonie co logo">
+    </div>
+    <div id="footer-links" class="footer-contents">
+      <h4>Navigation Links:</h4>
+      <ul>
+        <li><a href="index.html">Clonie Home Page</a></li>
+        <li><a href="engineering.html">Clonie Engineering</a></li>
+        <li><a href="digital.html">Clonie Digital</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </div>
+    <div id="footer-info" class="footer-contents">
+      <h4>Project By:</h4>
+      <ul>
+        <li><strong>Karl Louie Agno</strong></li>
+        <li>T00706738</li>
+        <li>COMP 2681 Final Project</li>
+        <li>February 5, 2023</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

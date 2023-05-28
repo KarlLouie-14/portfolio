@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* 
+    Karl Louie Agno
+    T00706738
+    Final Project: Clonie Co. Landing Page
+*/
+
+html {
+    background-image: url(Images/eng-background.jpg);
+}
+
+h1 {
+    color: rgba(8,223,254,255);
+    text-shadow: white 1px 1px;
+}
+
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(43, 37, 37);
+}
+
+/* HEADER */
+header {
+    background-color: black;
+}
+
+/* Navigation Menu */
+
+nav a {
+    color: rgba(8,223,254,255);
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+
+/* ABOUT */
+
+.about-contents {
+    background-color: rgba(8,223,254,255);
+}
+
+/* SERVICES */
+/* See the rest of CSS codes in the services.css */
+.services {
+    background-color: rgba(8,223,254,255);
+    border: 2px solid white;
+}
+
+
+/* PRICING */
+#pricing-container {
+    background-color: rgba(8,223,254,255);
+}
+
+
+/* REVIEWS */
+.reviews {
+    background-color: rgba(8,223,254,255);
+    border: 2px solid white;
+}
+
+.reviews:hover {
+    background-color: blue;
+}
+
+
+/* CONTACT */
+/* See more CSS codes in contact.css */
+div#contact-container {
+    background-color: rgba(8,223,254,255);
+}
+
+input, select, textarea {
+    background-color: rgb(97, 193, 235);
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: rgba(8,223,254,255);
+}
+
+#footer-links a {
+    color: rgba(8,223,254,255);
+}

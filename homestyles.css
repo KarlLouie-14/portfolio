@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+/* 
+    Karl Louie Agno
+    T00706738
+    Final Project: Clonie Co. Landing Page
+*/
+
+/* RESOURCES */
+
+html {
+    background-image: url(Images/clonie-background.jpg);
+}
+
+body {
+    background-color: hsla(38, 65%, 45%, 0.5);
+    padding: 1em;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+
+h1, h2 {
+    color: rgba(72,57,46,255);
+}
+
+header {
+    background-color: rgba(72,57,46,255);
+}
+
+/* NAVIGATION */
+nav {
+
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    color: white;
+}
+
+/* MAIN */
+#home-intro {
+    margin-top: 1em;
+    padding: 1em;
+    text-align: justify;
+    border: 2px dashed black;
+    background-color: bisque;
+}
+
+video, audio {
+    margin: 1% 2%;
+    width: 96%;
+}
+
+/* SERVICES */
+#home-services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin-top: 1em;
+}
+
+.home-services {
+    padding: 2%;
+    text-align: center;
+    border-radius: 1%;
+} 
+
+.home-services img {
+    width: 100%;
+}
+
+#engineering {
+    background-color: black;
+    color: aqua;
+}
+
+#engineering h1, #engineering h2 {
+    color: aqua;
+}
+
+#engineering table td {
+    border: 1px solid aqua;
+}
+
+#engineering button {
+    margin-top: 1em;
+    font-size: large;
+    font-weight: bold;
+    background-color: aqua; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+
+
+#digital {
+    background-color: rgba(239,226,223,255);
+    color: #000;
+}
+
+#digital h1, #digital h2{
+    color: #000;
+}
+
+#digital button {
+    color: white;
+    margin-top: 1em;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(94,51,38,255);
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 50%;
+}
+
+/* LOCATION */
+#home-location {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin-top: 1em;
+}
+
+#location-desc {
+    background-color: antiquewhite;
+    padding: 1em;
+    border-radius: 5%;
+}
+
+#location-image figure {
+    transform: rotate(5deg);
+    -webkit-filter: brightness(0.8) contrast(0.8);
+    filter: brightness(0.8) contrast(0.8);
+    perspective: 800px;
+}
+
+#home-location img {
+    width: 70%;
+    margin-left: 5em;
+}
+
+/* FOOTER */
+footer {
+    clear: both;
+    background: linear-gradient(325deg, rgb(180, 148, 104) 20%,
+    rgba(72,57,46,255) 60%);
+}
+
+.footer-contents ul li a, .footer-contents ul li, .footer-contents h4 {
+    color: white;
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 480px) {
+    nav ul {
+        display: none;
+        width: 50%;
+    }
+
+    a#navicon:hover+ul, .horizontal ul:hover {
+        display: block;
+        width: 200px;
+     }
+
+    #home-services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #home-location {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #home-location img {
+        width: 100%;
+        margin: 0;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+}
+
+/* TABLET */
+@media only screen and (min-width: 481px) {
+    nav ul {
+        display: none;
+        width: 50%;
+    }
+
+    a#navicon:hover+ul {
+        display: block;
+        width: 200px;
+    }
+
+    #home-services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #home-location {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #home-location img {
+        width: 100%;
+        margin: 0;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 769px) {
+    nav ul {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    a#navicon {
+        display: none;
+    }
+
+    #home-services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #home-location {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #home-location img {
+        width: 70%;
+        margin-left: 5em;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+
+}
